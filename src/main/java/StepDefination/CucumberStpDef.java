@@ -20,7 +20,7 @@ System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedri
 	 	
 	 	driver.manage().window().maximize();
 	}
-
+// Url of application under test
 	@When("Enter the url of website")
 	public void enter_the_url_of_website() {
 		driver.get("https://www.amazon.in/");
