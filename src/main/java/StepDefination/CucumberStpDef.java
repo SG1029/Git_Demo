@@ -13,6 +13,7 @@ public class CucumberStpDef {
 	
 	@Given("Open the browser window")
 	public void open_the_browser_window() {
+// Chrome driver path set and intialization.
 System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
         
 	 	driver = new ChromeDriver();
